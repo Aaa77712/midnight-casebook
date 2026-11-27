@@ -133,6 +133,28 @@
 .message p{font-size:1rem;line-height:1.75}
 @media(max-width:360px){.contact-actions{margin-left:0}.messages{padding-inline:14px}}
 
+/* v9.9: each record retains the interface it was captured from. */
+.evidence-context{display:grid;gap:3px;margin:8px 0 11px;padding:9px 11px;border-left:3px solid #a98db8;background:#211d29;color:#eee3f1;text-align:left;white-space:normal}
+.evidence-context small,.attachment .evidence-context small{color:#ded1e4;font-size:.78rem;line-height:1.55}
+.evidence-card{background:#16131b!important;color:var(--ink)!important;text-align:left;padding:12px!important}
+.evidence-card>strong{color:var(--ink)}
+.message .dm-attachment.evidence-card{padding:10px!important;background:#16131b!important;max-width:100%}
+.evidence-capture{position:relative;display:block;width:100%;max-width:480px;margin:10px auto;background:#fff;color:#20212b;border:1px solid #d9d7df;border-radius:18px;overflow:hidden;font-size:14px;line-height:1.55;text-align:left;box-shadow:0 3px 16px #0004}
+.evidence-capture *{box-sizing:border-box}.evidence-capture img{max-width:100%}.evidence-capture small{font-size:12px;line-height:1.5;color:#6d6875}.evidence-capture p{line-height:1.7;margin:10px 0;white-space:pre-line}
+.capture-status{display:flex;justify-content:space-between;padding:9px 16px 3px;font-size:11px;color:#6c6674;letter-spacing:.04em}
+.capture-header{display:flex;align-items:center;gap:12px;padding:10px 14px;border-bottom:1px solid #e6e0e9;min-height:47px}.capture-header>strong{flex:1;font-size:16px}.capture-header>span:first-child{font-size:27px;line-height:1}.capture-subtitle{padding:8px 15px;color:#6c6073;background:#f6f2f8;font-size:12px;line-height:1.6}
+.capture-home-indicator{height:5px;width:31%;background:#332b38;border-radius:5px;margin:22px auto 8px;opacity:.6}
+.capture-record-body{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.85;padding:17px 18px;font-size:14px;color:#2a2530;background:#fff}
+.capture-profile-cover{height:164px;background:#ded6e1;overflow:hidden}.capture-profile-cover img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 28%}.capture-profile-info{position:relative;padding:16px 18px 23px}.capture-profile-avatar{width:72px;height:72px;margin-top:-51px;border:4px solid #fff;border-radius:50%;overflow:hidden;background:#f7e8f2}.capture-profile-avatar img{width:100%;height:100%;object-fit:contain}.capture-profile-info h3{font-size:25px;line-height:1.3;margin:10px 0 5px}.capture-rank{display:inline-block;color:#bd6c88;border:1px solid #e8bbd2;border-radius:5px;padding:2px 7px;font-size:12px}.capture-profile-stats{display:grid;grid-template-columns:repeat(3,1fr);margin:19px 0;border-top:1px solid #eee5ef;border-bottom:1px solid #eee5ef;padding:12px 0;gap:10px;text-align:center;color:#716776;font-size:12px}.capture-profile-stats b{display:block;color:#3f3548;font-size:17px}.capture-follow{text-align:center;padding:9px;background:#f0e5fa;color:#9159b4;border-radius:24px;font-weight:700}.capture-profile-bio{padding:22px 2px 25px;font-size:18px;line-height:1.8;color:#282330;white-space:pre-wrap}.capture-profile-menu{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;border-top:1px solid #e7deeb;padding-top:16px;font-size:12px;text-align:center;color:#776282}
+.evidence-live{background:#211c2d;color:#fff;border-color:#514057}.evidence-live .capture-header{border-color:#4e3d57}.evidence-live .capture-status{color:#d6c8df}.evidence-live .capture-subtitle{background:#342b3f;color:#dccce3}.capture-live-stage{position:relative;min-height:450px;background:radial-gradient(ellipse at 50% 35%,#685e7c,#242035 75%);padding:14px}.capture-live-host{display:flex;align-items:center;gap:9px;font-size:16px}.capture-live-avatar{display:grid;place-items:center;width:40px;height:40px;border:2px solid #e6c3f1;border-radius:50%;background:#e5e8ed;font-size:25px}.capture-live-badge{font-size:11px;background:#e56687;padding:2px 8px;border-radius:15px}.capture-live-center{min-height:230px;display:grid;place-content:center;text-align:center}.capture-live-center>span{font-size:76px;line-height:1.2}.capture-live-center p{font-size:20px;color:#f0e4f5}.capture-arrival{border-radius:15px;padding:8px 12px;background:linear-gradient(90deg,#8c61b9,#685d9c);color:#fff;margin:5px 0;font-size:14px}.capture-host-caption{background:#1d1426b0;border-radius:8px;padding:10px 12px;margin:9px 0;font-size:14px}.capture-departure{font-size:12px;color:#d5c6df;padding:5px 12px}.capture-live-controls{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #6f5d7a;padding:15px 1px 0;color:#e2d7e9}.capture-live-controls>span:first-child{padding:8px 14px;border-radius:24px;background:#42384f}.evidence-live .capture-home-indicator{background:#e4d7ed}
+.capture-stream-frame{height:238px;position:relative;overflow:hidden;background:#292231}.capture-stream-frame>img{height:100%;width:100%;object-fit:cover;object-position:50% 28%}.capture-recording-label{position:absolute;left:10px;top:10px;background:#21172acc;color:#fff;padding:4px 8px;border-radius:5px;font-size:11px}.capture-phone-inset{position:absolute;right:12px;bottom:12px;width:46%;border:3px solid #c1b7c7;border-radius:10px;padding:9px;background:#0c0c10;color:#eee;font-size:11px;box-shadow:0 2px 8px #0008}.capture-phone-inset>b{display:block;border-bottom:1px solid #413a49;padding-bottom:5px;margin-bottom:6px}.capture-phone-inset>span{display:block;border-radius:6px;background:#302c37;padding:6px}.capture-recording-controls{padding:9px 15px;background:#251d30;color:#d9cde0;font-size:12px}
+.capture-comparison{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:16px 12px;background:#eae5ef}.capture-comparison>div>small{display:block;margin:0 0 6px;text-align:center;font-size:11px}.capture-compare-mini{min-height:230px;padding:10px 7px;background:#101014;color:#fff;border-radius:9px;display:flex;flex-direction:column;gap:12px}.capture-compare-mini>b{font-size:12px;line-height:1.5;border-bottom:1px solid #403848;padding-bottom:9px}.capture-compare-mini>span{font-size:11px;line-height:1.7;background:#302a37;border-radius:8px;padding:8px}.capture-compare-mini>span:last-child{background:#8350bf;align-self:flex-end}.capture-compare-note{padding:9px 15px;color:#71478c;background:#f3e9fa;font-size:12px}
+.capture-account-tabs{display:flex;gap:20px;padding:13px 16px 10px;font-size:12px;color:#938599;border-bottom:1px solid #e9e0ee}.capture-account-tabs>b{color:#9c65b9}.capture-account-badge,.capture-record-label{display:inline-block;margin:16px 17px 0;border:1px solid #decee9;border-radius:5px;color:#8c65a0;padding:4px 9px;font-size:12px;background:#faf5ff}.capture-link-field{font:13px/1.7 ui-monospace,monospace;border:1px solid #d7cee1;background:#f3eff8;border-radius:7px;padding:10px 12px;margin:5px 17px 21px;overflow-wrap:anywhere}
+.capture-editor-toolbar{display:flex;justify-content:space-between;padding:11px 16px;color:#d8cfe0;background:#262030;font-size:12px}.capture-editor-canvas{background:repeating-conic-gradient(#e5dfe9 0 25%,#f4eff8 0 50%) 0/20px 20px;padding:36px 18px;min-height:210px}.capture-editor-selection{border:2px dashed #ae64e0;padding:13px;background:#1b1621;color:#eee}.capture-editor-selection small{color:#ccace1}.capture-editor-selection p{font-size:15px;margin:8px 0}.capture-editor-canvas>span{display:block;background:#f6f0fa;margin-top:14px;padding:5px;font-size:12px}.capture-editor-history>b{display:block;padding:16px 18px 0;font-size:15px}.capture-roster{margin:0 17px 18px;border:1px solid #e2d9e7;border-radius:7px;overflow:hidden}.capture-roster>div{display:flex;justify-content:space-between;gap:8px;padding:10px;border-bottom:1px solid #ece5f0;font-size:12px}.capture-roster>div>span{color:#9b8da4}.capture-roster>small{display:block;padding:11px;background:#f6f0fa}.capture-sample-watermark{background:#f9dbbd;color:#7a4518;font-weight:700;padding:11px 17px;text-align:center;border-top:2px dashed #dc994b;border-bottom:2px dashed #dc994b}.capture-sample-message{margin:20px 17px;border-radius:8px;background:#24202b;color:#fff;padding:15px}.capture-sample-message b{font-size:13px;color:#c8b8d6}.capture-sample-message p{font-size:15px}.evidence-testimony .capture-record-body{font-size:16px;border-left:3px solid #b08bca;margin:18px;padding:9px 15px;background:#f9f4fc}.evidence-record .capture-record-body{min-height:250px}
+@media(max-width:360px){.capture-record-body{padding:13px;font-size:13px}.capture-profile-info{padding-inline:13px}.capture-header{padding-inline:11px}.capture-profile-cover{height:145px}.capture-comparison{gap:6px;padding:12px 8px}.capture-compare-mini{padding:8px 5px}}
+.capture-part-label{font-size:12px;padding:10px 16px;background:#f0e8f6;color:#765987;border-top:1px solid #d9cde2}
+.capture-shared-chat{padding:13px;background:#111015;color:#fff;display:flex;flex-direction:column;gap:10px}.capture-shared-chat>b{font-size:14px;padding-bottom:7px;border-bottom:1px solid #48404f}.capture-shared-chat>div{max-width:82%;border-radius:10px;padding:10px 12px;font-size:13px;line-height:1.7}.capture-chat-in{align-self:flex-start;background:#302b35}.capture-chat-out{align-self:flex-end;background:#8355b1}
+
 </style><style>
 /* Restored from the v8.6 archive layout; current story and handlers retained. */
 .archive-heading{display:flex;justify-content:space-between;align-items:center;gap:6px;flex:none;padding:3px 2px 7px}.archive-heading b{font-size:13px}.archive-heading small{font-size:10px}.archive-heading button{min-height:36px;padding:0 12px}.video{height:clamp(80px,17dvh,160px);min-height:60px;flex:none;position:relative;overflow:hidden;border-radius:12px 12px 0 0;background:#2a2330}.video img{width:100%;height:100%;object-fit:cover;object-position:center 26%}.video-label{position:absolute;top:8px;left:8px;background:#17131dcc;border-radius:6px;padding:3px 7px;font-size:10px}.host-caption{padding:9px 12px;background:#302632;border-radius:0 0 12px 12px;flex:none;min-height:67px}.host-caption small{font-size:10px;color:#c4a5bd}.host-caption p{margin:3px 0 0;font-size:var(--font);line-height:1.5;min-height:24px}.comment-toolbar{display:flex;justify-content:space-between;align-items:center;padding:5px 0;flex:none;font-size:11px;color:var(--muted)}.comment-toolbar button{font-size:11px;min-height:28px;padding:2px 10px}.comment-toolbar>span:last-child{display:flex;gap:5px}.log-layout{flex:1;display:flex;min-height:75px;overflow:hidden;background:#19161e;border:1px solid #39313f;border-radius:10px}.comment-log{flex:1;min-width:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none;padding:3px 6px 5px 10px;touch-action:pan-y}.comment-log::-webkit-scrollbar{display:none}.scroll-controls{width:36px;flex:none;display:flex;flex-direction:column;background:#211b28}.scroll-controls>button{height:28px;min-height:28px;padding:0;border:0;background:transparent;font-size:18px;border-radius:0}#comment-scrollbar{position:relative;flex:1;touch-action:none;cursor:ns-resize;min-height:40px}#comment-scrollbar:before{content:'';position:absolute;top:2px;bottom:2px;left:14px;width:8px;background:#3e3448;border-radius:8px}#scroll-thumb{position:absolute;left:14px;width:8px;border-radius:8px;background:#ba9ebd;min-height:20px;pointer-events:none}.logrow{position:relative;min-height:64px;border-bottom:1px solid #332c3b;padding:6px 40px 7px 0;font-size:var(--font);line-height:1.45}.logrow p{margin:2px 0 0;padding-left:26px;overflow-wrap:anywhere}.comment-person{display:flex;gap:7px;align-items:center}.comment-person .avatar{width:20px;height:20px;font-size:8px}.logname{font-size:12px;font-weight:bold;min-height:24px;border:0;background:none;padding:0;text-align:left;border-radius:3px;overflow-wrap:anywhere}.logtime{position:absolute;right:0;top:7px;border:0;background:none;color:#ab9db5;font-size:10px;min-height:24px;min-width:34px;padding:0;line-height:1.5}.logrow.item{min-height:32px;padding:4px 36px 4px 5px;font-size:14px;line-height:24px;background:#29222b;display:flex;gap:6px;flex-wrap:wrap;border-left:2px solid #9b7f91}.logrow.item small{display:inline;font-size:9px;color:#c8a995;line-height:24px}.logrow.item .logname{font-size:11px}.logrow.item .logtime{top:4px}.logrow.item details{font-size:10px;display:inline;color:var(--muted)}.read-tools{flex:none;display:flex;gap:5px}.read-tools button{padding:2px 8px;font-size:10px;min-height:28px}.timeline-panel{flex:none;padding:6px 0 0}.timeline-panel label{margin:0;font-size:10px}.timeline-panel input{display:block;margin:0;height:30px}.timeline-actions{display:flex;gap:5px}.timeline-actions button{font-size:11px;padding:7px 8px;min-height:38px}.timeline-actions .primary{flex:1}.highlight{box-shadow:0 0 0 2px var(--blue)}#guide-actions{font-size:11px}#guide-actions .wide{font-size:12px;min-height:36px;padding:6px;margin:6px 0 0}#guide-actions small{margin:4px 0 0;color:var(--blue)}.big-comments .video{height:46px;min-height:46px}.big-comments .host-caption{min-height:45px;padding:5px 10px}.big-comments .host-caption small{display:none}.big-comments .host-caption p{font-size:14px}
@@ -554,7 +576,7 @@ const nameOf=id=>id==='yuyu'?'ゆゆ':id==='you'?'あなた':id==='new'?'初見�
 
 </script><script>
 'use strict';
-const NIGHT_VERSION='9.8';
+const NIGHT_VERSION='9.9';
 const FIVE=['u05','u31','u17','u04','u01'];
 const MAIN=['u02',...FIVE];
 const WOLF='u04',MAD='u06';
@@ -563,7 +585,7 @@ const TRAITS=['人見知り／率直','おせっかい／心配性','気まぐ�
 const HINTS={u03:'しばらく距離置く。プロフの言葉が気になった。今夜は起きてる。',u14:'今夜は画面の通知が気になって眠れない。短い話なら返せます。',u07:'今夜、少しだけ配信します。眠れない人どうぞ。配信はプロフィールから見られます。',u10:'カフェ写真の前に映った画面、見間違いだったかな。今夜は起きてる。',u04:'相談なら聞くよ。本人に言いにくいこともあるでしょ。',u06:'いいところはちゃんと褒める。言いにくいことも言う。',u05:'朝は仕事。6時半までには、気持ちを整理したい。',u17:'画像だけで決められると困ります。話すなら落ち着いて。',u31:'スクショがない話は、いったん保留。',u02:'ゆゆちゃんの配信、今夜はまだ始まってないね。昨日のことも気になってる。'};
 const nrow=(t,who,text,kind='comment')=>({t,who,text,kind});
 const ARCHIVE9=[
-[0,'yuyu','みんなおつかれ〜！ 今日も来てくれてありがとう！','host'],[2,'u04','タマタマきました。'],[3,'u05','馬車','item'],[4,'u18','始まった瞬間に馬車www'],[5,'u05','馬車','item'],[7,'u05','馬車','item'],[8,'yuyu','ゆうくん、馬車ありがとう！ え、まだ来るの！？ めっちゃうれしい！','host'],[9,'u17','始まったばっかりなのに楽しそうですね'],[10,'u04','配信楽しかったよ〜！','item'],[12,'u17','配信楽しかったよ〜！','item'],[14,'u18','ハート','item'],[16,'yuyu','きむきむ、えりか、トミーもありがとう！','host'],[18,'yuyu','［通知音］あー、今日は少し早めに終わるかも。','host'],[19,'u33','なに？彼氏からDM？'],[20,'u33','で？','item'],[23,'yuyu','で？ありがとう！','host'],[24,'u05','ん？ 終わるの？'],[27,'u18','今飲み物買って帰ってきた。'],[30,'yuyu','まだ終わらんよ笑','host'],[54,'u01','俺いま来たとこ。もう終わるの？'],[58,'yuyu','ぽてぽて、まだ終わらんって笑 いらっしゃい！','host'],[70,'yuyu','今日カフェ行ってきたんだよね。写真見せようと思ってた！','host'],[120,'u02','どんなカフェー？'],[124,'u03','写真見たい'],[128,'u06','カフェか'],[132,'u07','タピオカ飲みたい。'],[136,'u08','今何の話？'],[137,'u02','いいじゃん！美咲も行きたい！'],[138,'yuyu','見て見て、こんな感じ！','host'],[140,'yuyu','あ、違うの開いとった笑 ちょっと待って！［一瞬、DMらしい画面が映る。文字は読み取れない］','host'],[142,'yuyu','こっちこっち！ ケーキもコーヒーもおいしかったんだよね。','host'],[220,'u09','カフェいいですね'],[224,'u10','さっきの画面、何だったの？'],[228,'u11','ただーいま'],[232,'u12','いま来たよ'],[236,'u13','カフェ私と行きたい！'],[240,'yuyu','カフェとは関係ない画面！ 間違えて開いちゃった笑 てか、そのカフェなんだけどねー。あ、わっくんさんいらっしゃい！','host'],[330,'u14','写真、見えたよ'],[334,'u15','仕事今終わったー'],[338,'u16','写真一枚で話が広がるね笑笑笑'],[342,'u17','漫画の話ならもっと長いですよね'],[346,'u19','それはそう'],[348,'u15','最近も漫画読んでる？'],[350,'yuyu','読んでるよ〜！ 好きな漫画の話なら、いくらでもできるよ笑','host'],[480,'u20','旅行先から見てるよ'],[484,'u21','旅行いいなー'],[488,'u22','景色も見てw'],[492,'u23','ちょっとだけ顔出し'],[496,'u24','俺もいるよ'],[498,'u21','うらるさん最近旅行とか行ってないんですか？'],[500,'yuyu','最近は行ってないなー。カフェばっか笑','host'],[650,'u25','今の聞き逃した'],[654,'u26','いるよ'],[658,'u27','ご飯食べてきた'],[662,'u28','間に合った'],[666,'u29','久しぶり'],[670,'yuyu','ぷんちさん久しぶり！ あれ、ごめんw 今何の話してたっけ？ ていうかさー','host'],[800,'u30','🐸'],[804,'u31','a\na\na\na\na\na'],[808,'u32','ころころハムスター','item'],[812,'yuyu','ドラゴンくん、ハムスターありがとう！ これ可愛いよね！','host'],[820,'u33','何の話'],[824,'u31','今日はよく話飛ぶね'],[828,'u33','へー。'],[833,'yuyu','ごめんw なんかそわそわしちゃって','host'],[895,'new','アイテム投げれば何言ってもいいんでしょ？'],[902,'yuyu','いや、何でもいいわけじゃないよ笑','host'],[909,'new','じゃあ投げてる人の言うことは聞くんだ？'],[916,'yuyu','その感じ、本当にやめてもらっていい？ 私、そういうの好きじゃない。','host'],[926,'u05','ゆゆの嫌なことはやめよう'],[934,'u31','一回止めよう'],[944,'yuyu','さっき、何の話してたっけ？','host'],[952,'u17','元々大した話してなかったですよ'],[960,'yuyu','笑笑 じゃあもうさっきの話はいいや！ あ、そういえばね、','host'],[1900,'u02','ゆゆちゃん、ちょっと画像送るんだけど、見て'],[1903,'yuyu','ちょっと裏潜るね。［携帯を操作する音］','host'],[1908,'u02','これ、どういうこと？'],[1908,'yuyu','［ゆゆが画面に戻る。少し言葉に詰まる］','host'],[1912,'yuyu','…今送ってもらった画像ね。「ゆうくんをブロックしてほしい」って、私が送ったみたいになってる。\n私、そんなこと頼んでないよ。これ、AIで作った画像でしょ…。','host'],[1918,'u17','悪質な嫌がらせですね'],[1925,'yuyu','てか美咲、こういうのは配信が終わってから送ってほしい。','host'],[1927,'u31','誰から来たの？'],[1935,'u02','配信中にごめん。知らない人からこの画像が届いて、気になって送っちゃった。'],[1939,'u04','なにその話'],[1948,'u05','え、どういうこと？'],[1960,'yuyu','誰がこんなの作ったんだろ…。ほんと、分からん。','host'],[2075,'yuyu','あ、ちょっと待って。画面、止まってる？ あ、電波悪いかも…','host'],[2085,'u31','画面止まった？'],[2095,'yuyu','［配信が終了しました］','host']
+[0,'yuyu','みんなおつかれ〜！ 今日も来てくれてありがとう！','host'],[2,'u04','ただいま。'],[3,'u05','馬車','item'],[4,'u18','始まった瞬間に馬車www'],[5,'u05','馬車','item'],[7,'u05','馬車','item'],[8,'yuyu','ゆうくん、馬車ありがとう！ え、まだ来るの！？ めっちゃうれしい！','host'],[9,'u17','始まったばっかりなのに楽しそうですね'],[10,'u04','配信楽しかったよ〜！','item'],[12,'u17','配信楽しかったよ〜！','item'],[14,'u18','ハート','item'],[16,'yuyu','きむきむ、えりか、トミーもありがとう！','host'],[18,'yuyu','［通知音］あー、今日は少し早めに終わるかも。','host'],[19,'u33','なに？彼氏からDM？'],[20,'u33','で？','item'],[23,'yuyu','で？ありがとう！','host'],[24,'u05','ん？ 終わるの？'],[27,'u18','今飲み物買って帰ってきた。'],[30,'yuyu','まだ終わらんよ笑','host'],[54,'u01','俺いま来たとこ。もう終わるの？'],[58,'yuyu','ぽてぽて、まだ終わらんって笑 いらっしゃい！','host'],[70,'yuyu','今日カフェ行ってきたんだよね。写真見せようと思ってた！','host'],[120,'u02','どんなカフェー？'],[124,'u03','写真見たい'],[128,'u06','カフェか'],[132,'u07','タピオカ飲みたい。'],[136,'u08','今何の話？'],[137,'u02','いいじゃん！美咲も行きたい！'],[138,'yuyu','見て見て、こんな感じ！','host'],[140,'yuyu','あ、違うの開いとった笑 ちょっと待って！［一瞬、DMらしい画面が映る。文字は読み取れない］','host'],[142,'yuyu','こっちこっち！ ケーキもコーヒーもおいしかったんだよね。','host'],[220,'u09','カフェいいですね'],[224,'u10','さっきの画面、何だったの？'],[228,'u11','ただーいま'],[232,'u12','いま来たよ'],[236,'u13','カフェ私と行きたい！'],[240,'yuyu','カフェとは関係ない画面！ 間違えて開いちゃった笑 てか、そのカフェなんだけどねー。あ、わっくんさんいらっしゃい！','host'],[330,'u14','写真、見えたよ'],[334,'u15','仕事今終わったー'],[338,'u16','写真一枚で話が広がるね笑笑笑'],[342,'u17','漫画の話ならもっと長いですよね'],[346,'u19','それはそう'],[348,'u15','最近も漫画読んでる？'],[350,'yuyu','読んでるよ〜！ 好きな漫画の話なら、いくらでもできるよ笑','host'],[480,'u20','旅行先から見てるよ'],[484,'u21','旅行いいなー'],[488,'u22','景色も見てw'],[492,'u23','ちょっとだけ顔出し'],[496,'u24','俺もいるよ'],[498,'u21','うらるさん最近旅行とか行ってないんですか？'],[500,'yuyu','最近は行ってないなー。カフェばっか笑','host'],[650,'u25','今の聞き逃した'],[654,'u26','いるよ'],[658,'u27','ご飯食べてきた'],[662,'u28','間に合った'],[666,'u29','久しぶり'],[670,'yuyu','ぷんちさん久しぶり！ あれ、ごめんw 今何の話してたっけ？ ていうかさー','host'],[800,'u30','🐸'],[804,'u31','a\na\na\na\na\na'],[808,'u32','ころころハムスター','item'],[812,'yuyu','ドラゴンくん、ハムスターありがとう！ これ可愛いよね！','host'],[820,'u33','何の話'],[824,'u31','今日はよく話飛ぶね'],[828,'u33','へー。'],[833,'yuyu','ごめんw なんかそわそわしちゃって','host'],[895,'new','アイテム投げれば何言ってもいいんでしょ？'],[902,'yuyu','いや、何でもいいわけじゃないよ笑','host'],[909,'new','じゃあ投げてる人の言うことは聞くんだ？'],[916,'yuyu','その感じ、本当にやめてもらっていい？ 私、そういうの好きじゃない。','host'],[926,'u05','ゆゆの嫌なことはやめよう'],[934,'u31','一回止めよう'],[944,'yuyu','さっき、何の話してたっけ？','host'],[952,'u17','元々大した話してなかったですよ'],[960,'yuyu','笑笑 じゃあもうさっきの話はいいや！ あ、そういえばね、','host'],[1900,'u02','ゆゆちゃん、ちょっと画像送るんだけど、見て'],[1903,'yuyu','ちょっと裏潜るね。［携帯を操作する音］','host'],[1908,'u02','これ、どういうこと？'],[1908,'yuyu','［ゆゆが画面に戻る。少し言葉に詰まる］','host'],[1912,'yuyu','…今送ってもらった画像ね。「ゆうくんをブロックしてほしい」って、私が送ったみたいになってる。\n私、そんなこと頼んでないよ。これ、AIで作った画像でしょ…。','host'],[1918,'u17','悪質な嫌がらせですね'],[1925,'yuyu','てか美咲、こういうのは配信が終わってから送ってほしい。','host'],[1927,'u31','誰から来たの？'],[1935,'u02','配信中にごめん。知らない人からこの画像が届いて、気になって送っちゃった。'],[1939,'u04','なにその話'],[1948,'u05','え、どういうこと？'],[1960,'yuyu','誰がこんなの作ったんだろ…。ほんと、分からん。','host'],[2075,'yuyu','あ、ちょっと待って。画面、止まってる？ あ、電波悪いかも…','host'],[2085,'u31','画面止まった？'],[2095,'yuyu','［配信が終了しました］','host']
 ].map(x=>nrow(...x));
 const ATTENTION9=[18,19,140,224,804,916,1908,1912,1939,2075];
 
@@ -611,35 +633,36 @@ function archiveSceneAt(originalSeconds){
 
 const DELIVERY_COPY={
   original:'見つけた。これが昨日の23:41に「A」から届いた画像だよ。\n画像のトーク相手が誰なのかは、美咲にも分からない。',
-  mandate:'さっき「A」から、今度は五人の名前が入った画像が来た。\nゆゆちゃんに頼まれたって書いてあるけど、本当に本人の依頼なのかは、まだ確かめられてない。',
-  secondA:'また「A」から来た。名前は同じ五人なのに、今度は変な一行が足されてる。見て。',
+  mandate:"さっき「A」から、五人の名前が入った画像が届いた。\nAは「ゆゆちゃんと自分のDMを撮った。美咲からアシスタントに見せてほしい」って。\n画像の中で話しているのは、ゆゆちゃんとAみたい。でも、本当に本人同士のやり取りなのかは、まだ分からない。",
+  secondA:"また「A」から、ゆゆちゃんとのDMだという画像が届いた。\n美咲に届いたのは二枚目。五人の名前は同じだけど、今度は一行増えてる。\nこの画像も、Aが送ってきたものをそのまま転送するね。",
   raw:'昨日の画像と、今夜最初に来た五人の画像。どっちも、届いたときの画面を残してあるよ。\nそれぞれの添付の下に、受信元を確認できるリンクがある。',
-  comparison:'ぴろきちさんの録画と、きむきむさんが見せた画面を並べました。表示名と吹き出しの位置が一致してます。\n昨夜「A」から届いた画像では、表示名も吹き出しの配置も変わっています。',
+  comparison:"ぴろきちさんの録画と、きむきむさんが自分の端末で見せたDMを、それぞれ確認しました。\n録画に映った画面の相手は「きむきむ」、きむきむさん側の画面の相手は「ゆゆ」です。見る側が違えば、相手の名前と吹き出しの左右も変わります。録画だけでは、会話の文字までは読めません。\nAから届いたブロック依頼の画像とは、会話の内容が違います。",
   sourceCheck:'美咲さんに届いた画像の受信リンクを確認しました。末尾には、送信元の固定IDが表示されています。\n昨夜の画像と、今夜最初の五人の画像。どちらも同じIDです。',
   receipt:'ファミリーの管理メモから、昨夜のIDに一致する過去のメッセージを見つけました。受信リンクも付けておきます。',
   draft:'これ、きむきむが美咲に送る前に、俺に見せた下書き。\nこれを見せたら、俺が何してたかも聞かれると思って、黙ってた。',
   external:'昨日の「A」とのDMを見返したら、最初の画像のすぐあとに、もう一枚届いてた。\n美咲、最初の画像ばっかり気にしてて、こっちは開いてなかった。これも残しておくね。',
   apology:'嫌味は俺が送った。少し焦らせたかった。\n五人の名前が並んだ画像があるって聞いて、「五つ並べたら選ぶ」って言ったんだ。どうするか見たかった。ゆゆには朝、謝る。'
 };
+const NOBU_PROVENANCE_REPLY="送ってくれた画像を、美咲が受け取った元の画像と見比べたよ。\n内容が違うんだけど、これは誰がまとめたもの？ この画面だと、全部ゆゆが言ったように見える。";
 const DOCS={
  original:{title:'美咲が受け取った画像',source:'A → 美咲／昨夜23:41',body:'ゆゆ　21:58\nゆうくんをブロックしてほしい\n\nこのアカウントは存在しません\nなんで？\n\nゆゆ\n理由説明しないとだめなの？\nゆうくんには、私から言うから。\n\n［日付の表示なし］'},
- mandate:{title:'五人の名前が並ぶ画像',source:'A → 美咲／今夜、最初の追放要求',body:'ゆゆ\n{NAME}に伝えて。\nゆうくん、のぶくん、えりか、きむきむ、\nぽてぽて。この中から一人、\nブロックしてほしい。\n\n美咲\nえ？ ゆゆちゃん急にどうしたの？\n［この先に返信はない］'},
- secondA:{title:'もう一枚の追放要求',source:'「A」 → 美咲／今夜、二枚目の追放要求',body:'ゆゆ\n{NAME}に伝えて。\nゆうくん、のぶくん、えりか、きむきむ、\nぽてぽて。この中から一人、\nブロックしてほしい。\n\n【朝までにひとり。聞き返さないで。】\n\n画像の添付元を開く › room-620'},
+ mandate:{title:"Aが見せた、五人の名前が入ったDM画像",source:"Aが自分の受信画面だと説明／A → 美咲 → あなた",body:"ゆゆ → A\nこの五人の中から、一人ブロックしてほしい。\nゆうくん、のぶくん、えりか、きむきむ、ぽてぽて。\n\nA → ゆゆ\n美咲にこの画像を渡せばいい？\n\nゆゆ → A\nうん。美咲からアシスタントの{NAME}に見せてもらって。"},
+ secondA:{title:"二枚目の、追加の一行があるDM画像",source:"二枚目の画像／A → 美咲 → あなた／添付元 room-620",body:"ゆゆ → A\nこの五人の中から、一人ブロックしてほしい。\nゆうくん、のぶくん、えりか、きむきむ、ぽてぽて。\n【朝までにひとり。聞き返さないで。】\n\nA → ゆゆ\n美咲にこの画像を渡せばいい？\n\nゆゆ → A\nうん。美咲からアシスタントの{NAME}に見せてもらって。"},
  notice:{title:'配信冒頭の通知',source:'Gくんの送信画面／ガッチャンから共有',body:'昨夜 23:10　Gくん → ゆゆ\nみんなの前では楽しそうでいいね。\nゆうくんにばっかりありがとうって\n言ってたら、ほかの人いなくなるよ。\n俺はゆゆのために言ってる。\n\n［送信時刻はアーカイブ冒頭の通知と一致］'},
- cafe:{title:'カフェ写真の前に映った画面',source:'ぴろきちさんの録画と、きむきむが見せた画像',body:'23:12　アーカイブの一コマ\n画面の端に「きむきむ」の表示名。\n\nきむきむが見せた同じ画面\nきむきむ「相談する人、一人に決めた方が楽じゃない？ 俺なら余計なこと言わない」\nゆゆ「それは私が決めるよ。みんなと話したいし」\nきむきむ「へー。まあ好きにしたら」'},
- profileHistory:{title:'書き換わる前のプロフィール',source:'ば◯おが残したスクリーンショット',body:'ゆゆ　プロフィール\n「一人にしないで」\n\nば◯お「そのあと開き直したら、文章がもう変わってた。何回もDM送るのも怖いし、俺は今はそっとしとく」'},
+ cafe:{title:"配信に映った画面と、きむきむが見せたDM",source:"ぴろきちの録画＋きむきむが見せた受信画面 → あなた",body:"昨夜23:12ごろの配信の一コマ\nゆゆの端末が映り、画面上部の相手名は「きむきむ」。\n録画だけでは、会話の文字までは読み取れない。\n\nきむきむが自分の端末で見せたDM\n画面を見ているアカウント：きむきむ／会話の相手：ゆゆ\nきむきむ「相談する人、一人に決めた方が楽じゃない？ 俺なら余計なこと言わない」\nゆゆ「それは私が決めるよ。みんなと話したいし」\nきむきむ「へー。まあ好きにしたら」"},
+ profileHistory:{title:"書き換わる前のゆゆのプロフィール",source:"ば◯おの端末で撮影／ば◯お → あなた",body:"Pocochaのゆゆのプロフィール\n自己紹介「一人にしないで」\n\n撮影者の補足：ば◯お\n「そのあと開き直したら、文章がもう変わってた。何回もDM送るのも怖いし、俺は今はそっとしとく」"},
  profile:{title:'一瞬だけ変わったプロフィール',source:'ば◯おの証言',body:'「一人にしないで」って出てた。すぐ変わったよ。\nなんかもう、ゆゆがよく分からない。俺は今あんまり関わりたくない。'},
  retracted:{title:'取り消される前のDM',source:'Gくん → あなた／今夜',body:'さっきの話なんだけど。\n俺が言ったことまで一緒に出さないで。\n「五つ並べたら選ぶ」って話、まだ誰にも言ってないよな？\n［送信先を間違えたようだ］'},
- comparison:{title:'二枚の画像を重ねた記録',source:'えりかが照合した配信の一コマと、送られた画像',body:'配信で一瞬映った画面：画面上部の表示は「きむきむ」。話していたのは、相談相手を一人に絞るかどうか。\nAの添付画像：「このアカウントは存在しません」。書かれているのは、ゆうくんをブロックしてほしいという依頼。\n\n見比べると、相手の表示名と、吹き出しの位置や内容が変えられている。送信元は、画像と一緒に届いた受信リンクで確かめる必要がある。'},
+ comparison:{title:"二つの視点のDMと、Aの画像の照合",source:"えりかの比較メモ／えりか → あなた",body:"配信の録画：ゆゆの端末。画面上部の相手は「きむきむ」。文字までは読み取れない。\nきむきむが見せたDM：きむきむの端末。画面上部の相手は「ゆゆ」。相談相手を一人に絞る話をしている。\n\n見る側が入れ替わると、相手名と吹き出しの左右も逆になる。\nAの添付画像は相手が「このアカウントは存在しません」で、ゆうくんをブロックしてほしいという内容。\n\n録画だけでブロック依頼があったとは言えない。画像を誰が送ったかは、美咲が残した受信リンクで別に確かめる。"},
  sourceCheck:{title:'画像の送信元を照合した画面',source:'えりかが確認した美咲の受信リンク',body:'昨夜23:41：一枚目の画像\n表示名 A ／ 固定ID guest-062\n\n今夜00:15：最初の五人の画像\n表示名 A ／ 固定ID guest-062\n\n画像を最初に送ったアカウントは、受信リンク末尾の固定IDで確かめられる。転送した人の名前は別の欄に出る。'},
  receipt:{title:'ファミリーに残っていた受信記録',source:'えりかが共有した過去のメッセージ申請',body:'枠の外から届いたメッセージ申請\n固定ID：guest-062\n「前に断られたけど、ゆゆに話がある」\n\n添付：申請を受けたファミリーの管理記録\n当時、枠にいたメンバーのIDとは一致しない。\n今回の画像が届いたリンクと同じID。'},
  draft:{title:'送信前の画像とアカウントID',source:'Gくんが保存した、きむきむとのDM',body:'きむきむ → Gくん\n五つ並べたら、あいつは誰か選ぶよ。\n俺の名前も入れとく。Aで送るから。\n俺がまとめれば、前みたいに戻ると思う。\n\n添付：未送信の五人の画像\n【朝までにひとり。聞き返さないで。】\n送信用のアカウント：room-620\n\nGくんがこのDMを受け取ったのは、美咲に二枚目の画像が届くより前。'},
  external:{title:'昨夜のAが残した編集画面',source:'美咲の受信記録／guest-062からの別添付',body:'A（guest-062）→ 美咲\n［一枚目の添付の直後に届いた編集画面］\n\n生成画像　編集履歴\n「ゆうくんをブロックしてほしい」の文を追加\n相手の表示名を「このアカウントは存在しません」に変更\n\n保存前の見本でも、届いた画像と文の間隔や配置が一致している。'},
  confession:{title:'Gくんが明かした送信前の話',source:'Gくんの返信／今夜',body:'配信が始まったとき、嫌味を送ったのは俺。少し焦らせたかった。\n五人の画像に一行足した方は、きむきむが「Aで送る」って言ってた。止めなかった。正直、どうなるか見たかった。\n証拠は、送られてきた下書きの画面。'},
- visitor:{title:'ざらし丸の枠の入室ログ',source:'今夜の配信・入室記録／プロフィール',body:'ざらし丸「ゆゆちゃん？ 来てくれたの？」\n［ゆゆが入室。コメントをせず、まもなく退出］\n\nプロフィールが「画像じゃなく、私に聞いて。返事は朝になると思う。」に変わった。'},
+ visitor:{title:"ゆゆが入室した、ざらし丸の配信画面",source:"あなたの視聴画面／今夜のざらし丸の配信",body:"ざらし丸の配信を、あなたが見ている画面\nゆゆ が入室しました\nざらし丸「ゆゆちゃん？ 来てくれたの？」\n［ゆゆはコメントをせず、まもなく退出］\n\n配信を見たあとに確かめた、別の記録\nゆゆのプロフィールが「画像じゃなく、私に聞いて。返事は朝になると思う。」に変わった。"},
  raw:{title:'Aの受信リンクを残した記録',source:'美咲が受け取った元のDM',body:'A → 美咲　昨夜23:41\n「これ見ても、ゆうくんのこと信じる？」\n添付：ブロック依頼の画像\n受信元の記録を開く › guest-062\n\nA → 美咲　今夜00:15\n「本人から頼まれた。決めるのはあの人」\n添付：五人の名前が並ぶ画像\n受信元の記録を開く › guest-062'},
  erika:{title:'えりかの見本と説明',source:'えりかが見せた画像／見本の表示あり',body:'［これは説明用の見本です］\n表示名：ゆゆ\n「これは架空のメッセージです」\n\nえりか「表示名だけなら真似できます。自分が作ったのは、この見本だけです。問題の画像に書かれている文は作っていません」'},
- nobu:{title:'のぶくんが受け取った添付',source:'あなた → のぶくん／今夜',body:'のぶくん「これ、あなたから来た画像だよね。美咲にも聞いたけど、見たことないって。誰から届いた画像なのか、最初からちゃんと言ってよ」'},
+ nobu:{title:"のぶくんが画像を照合した返信",source:"のぶくん → あなた／あなたの受信画面",body:"送ってくれた画像を、美咲が受け取った元の画像と見比べたよ。\n内容が違うんだけど、これは誰がまとめたもの？ この画面だと、全部ゆゆが言ったように見える。"},
  apology:{title:'Gくんの謝罪',source:'Gくんの返信／今夜',body:DELIVERY_COPY.apology},
  repair:{title:'訂正を届けた記録',source:'あなた → 美咲／今夜',body:'確かめていない話を先に伝えてごめん。残っている記録を照合して、朝に説明する。'},
  roster:{title:'33人の発言と受信記録',source:'ファミリーの公開記録＋個別に提供された記録',body:'誰かをかばう、返信が遅い、話を変える。その一つ一つに事情がある。\nそれぞれの発言と、今分かっていることを整理した一覧。名前があるだけでは、その人が犯人だとは言えない。'}
@@ -707,7 +730,7 @@ function reviseSavedDialogue(s){
 
 const Night={
  create(name,gender){
-   return {version:9,revision:8,name,gender,minute:1320,stage:'home',route:'home',id:null,archive:0,guide:0,messages:[],clues:[],blocked:[],grounds:{},asked:[],done:[],history:[],origin:null,advisor:null,forged:false,motive:0,forgeAnswers:[],unjust:false,errors:0,misses:0,pending:null,retract:null,barrier:false,wolfActive:false,isolated:false,forced:false,ending:null,endPage:0,profileSeen:[],report:null};
+   return {version:9,revision:9,name,gender,minute:1320,stage:'home',route:'home',id:null,archive:0,guide:0,messages:[],clues:[],blocked:[],grounds:{},asked:[],done:[],history:[],origin:null,advisor:null,forged:false,motive:0,forgeAnswers:[],unjust:false,errors:0,misses:0,pending:null,retract:null,barrier:false,wolfActive:false,isolated:false,forced:false,ending:null,endPage:0,profileSeen:[],report:null};
  },
  restore(s){
    if(s?.version!==9)return null;
@@ -757,6 +780,16 @@ const Night={
        if(m.out&&m.body==='まだそこまで見てないから、これから見るよ。\n何かの間違いだと思うけど。')m.body=FIRST_ARCHIVE_REPLY;
      }
      s.revision=8;
+   }
+   if(revision<9){
+     for(const m of s.messages){
+       if(!m.out&&m.id==='u02'&&m.doc==='mandate'&&m.body.startsWith('さっき「A」から'))m.body=this.text(s,DELIVERY_COPY.mandate);
+       if(!m.out&&m.id==='u02'&&m.doc==='secondA')m.body=this.text(s,DELIVERY_COPY.secondA);
+       if(!m.out&&m.id==='u17'&&m.doc==='comparison')m.body=this.text(s,DELIVERY_COPY.comparison);
+       if(!m.out&&m.id==='u31'&&m.doc==='nobu')m.body=this.text(s,NOBU_PROVENANCE_REPLY);
+       if(m.out&&m.id==='u31'&&m.doc==='mandateFake')m.body=this.text(s,'美咲から来た五人の画像についても、要点をまとめたよ。\nこれを見て、今できることを一緒に考えてほしい。');
+     }
+     s.revision=9;
    }
    s.archive=archiveSourceAt(archivePosition(s.archive));
    if(s.retract?.pending){s.route='dm';s.id=null;}
@@ -887,9 +920,9 @@ const Night={
  contactAdvisor(s,id){
    s.stage='attach';
    s.minute=1330;
-   this.msg(s,id,'昨日の配信、最後の方も見てた？\n美咲に届いたDMのこと、何か知ってる？',null,true);
+   this.msg(s,id,id==='u31'?'昨日の配信で、美咲が話してた画像のことなんだけど。\n誰から来た画像なのか、何か聞いてる？':'昨日の配信で話してたDM画像って、見た？\n本物かどうか確かめるには、どこを見ればいいと思う？',null,true);
    if(id==='u31'){
-     this.msg(s,id,'配信の最後に美咲が話してたやつ？\n元の画像があれば見せて。人づてだと、どこで話が変わったか分からんし。');
+     this.msg(s,id,'美咲が「知らない人から届いた」って言ってた画像？\n持ってるなら見せて。誰から来たものかも、一緒に教えてほしい。');
    }else{
      this.msg(s,id,'配信の終わり際、その話をしてたのは覚えてます。\n画像は見てないですけど、表示名だけじゃ本人かは分からないですよ。');
      this.msg(s,id,'表示名をまねた見本を作ってみました。\n昨夜の画像とは別です。','erika');
@@ -949,11 +982,11 @@ const Night={
        s.mastermind=false;
        if(s.forged){
          this.add(s,'fake');
-         this.msg(s,'u31','話を整理してみた。こういう意味だと思う。','fake',true);
+         this.msg(s,'u31','聞いた話を、読みやすい形にまとめてみた。','fake',true);
          this.msg(s,'u02','のぶくんにも伝わるように、話をまとめてみた。','fake',true);
-         this.msg(s,'u31','これ、ゆゆの言葉として受け取っていい？ それなら、何か対応した方がいいのかな。');
+         this.msg(s,'u31','こう書いてあると、ゆゆがそう言ってるように見えるね。\n受け取った画像と、同じ内容なんだよね？');
        }else{
-         this.msg(s,'u31','未確認の話と、自分の考えを分けてまとめたよ。本人の発言を写した画像ではないから、元の記録と見比べてほしい。',null,true);
+         this.msg(s,'u31','画像に書いてあることと、自分の考えを分けて書いたよ。\n本人にはまだ確認できていないから、美咲から届いた元の画像と見比べてほしい。','original',true);
          this.msg(s,'u31','分かった。本人が言ったこととは分けて、確認するね。');
        }
        this.resumeArchive(s);
@@ -976,7 +1009,7 @@ const Night={
      if(advisor){
        this.msg(s,s.advisor,'何か、今できることってあるかな？',null,true);
        const rushed=s.advisor==='u31'&&!s.asked.includes('u05');
-       const reply=s.advisor==='u17'?'自分には、まだ判断できません。話を聞いてからでも、ブロックはできますよ。':s.forged?'送ってくれた画像、まだ引っかかってる。\nゆゆと連絡つかないし、今はどうする？':'画像だけじゃ決められない。ゆうくん本人にも、ちゃんと話を聞いた方がいい。';
+       const reply=s.advisor==='u17'?'自分には、まだ判断できません。話を聞いてからでも、ブロックはできますよ。':s.forged?'さっきの画像、誰が書いたものなのか気になってる。\nゆゆから返事が来るまでに、元の記録と見比べておこう。':'画像だけじゃ決められない。ゆうくん本人にも、ちゃんと話を聞いた方がいい。';
        this.msg(s,s.advisor,rushed?reply+'\n'+NOBU_RUSHED:reply,null,false,null,'midnight-reply');
        this.tick(s,10);
        if(rushed)s.done.push('rushed');
@@ -995,7 +1028,7 @@ const Night={
      this.activateWolf(s);
    }
    if(s.forged){
-     this.msg(s,'u31','こういう意味だと思う。みんなにも確認してもらえる？','mandateFake',true);
+     this.msg(s,'u31','美咲から来た五人の画像についても、要点をまとめたよ。\nこれを見て、今できることを一緒に考えてほしい。','mandateFake',true);
      this.add(s,'mandateFake');
      s.forced=true;
    }
@@ -1038,12 +1071,12 @@ const Night={
        u02:misakiImageReply(s.wolfActive),
        u04:'え？ 急にどうした？ 俺の名前も入ってんだけどw\n美咲は心配で送っただけでしょ。話、俺にまとめさせてよ。',
        u17:'表示名をまねた見本なら作れます。だからって、その画像も自分が作ったみたいに聞かれるのは気分が悪いです。',
-       u31:s.forged?'前に送ってくれた画像も見たよ。ゆゆと連絡がつかないなら、俺たちで決めるしかなくない？':'名前が載ってるだけで、誰かをブロックしろってこと？ この画像を送った人が何をしたいのか、先に知りたい。',
+       u31:s.forged?'前に送ってくれた画像も気になってる。\n元の画像をもう一度確かめた方がよさそうだね。':'名前が載ってるだけで、誰かをブロックしろってこと？ この画像を送った人が何をしたいのか、先に知りたい。',
        u01:'ええ？ どういうこと？ ていうか、{NAME}って誰だよw\n俺、最近来たんだから…知らんよ。\n変な揉め事に巻き込まないでよ。'
      };
      this.msg(s,id,reply[id]);
      if(id==='u31'&&s.forged){
-       this.msg(s,id,'送ってくれた画像、美咲にも確認したけど、元の画像とは違うって。どこまでが本人の言葉？ この画面だと、全部ゆゆが言ったように見える。','nobu');
+       this.msg(s,id,NOBU_PROVENANCE_REPLY,'nobu');
      }
      if(id==='u31'&&!s.asked.includes('u05')&&!s.done.includes('rushed')){
        s.done.push('rushed');
@@ -1346,11 +1379,15 @@ function save(){try{if(s)localStorage.setItem(NK,JSON.stringify(s));localStorage
 function toast(t){$('#toast').textContent=t;$('#toast').classList.add('show');setTimeout(()=>$('#toast').classList.remove('show'),4000);}
 function avatar(id){return `<span class="avatar">${id==='yuyu'?`<img src="${ART.chibi}" alt="">`:e(nameOf(id).slice(0,2))}</span>`;}
 function person(id,extra=''){return b(`${avatar(id)}<span><strong>${e(nameOf(id))}</strong><small>${extra||`${byId(id)?.core||''}K · ${e(TRAITS[CAST.findIndex(p=>p.id===id)]||'配信者')}`}</small></span><span>›</span>`,'profile',id,'person');}
+function sentAttachmentRoute(id){
+  const recipients=[...new Set(s.messages.filter(m=>m.out&&m.doc===id).map(m=>nameOf(m.id)))];
+  return 'あなた → '+(recipients.length?recipients.join('・'):id==='mandateFake'?'のぶくん':'のぶくん・美咲');
+}
 function docData(id){
   if(id==='external'&&s.mastermind)return {title:'最初のAの送信元',source:'照合されたアカウント',body:'固定ID：guest-062。最初のAは、あなたが使った捨て垢。美咲の受信記録と、あなたの送信済みの画面が一致する。'};
   if(id==='ownSource')return {title:'あなたの捨て垢の送信記録',source:'昨夜・Aの送信済みフォルダ',body:'最初の画像を送ったAは、あなたのアカウント。新しい画像を送る前から、送信履歴が残っている。'};
-  if(id==='fake')return {title:'あなたが送った画像',source:'あなた → のぶくん・美咲',body:'ゆゆ\n'+Night.text(s,FAKE9[s.motive])};
-  if(id==='mandateFake')return {...DOCS.mandate,source:'あなた → のぶくん',body:DOCS.mandate.body.replaceAll('美咲','あなた')};
+  if(id==='fake')return {title:'あなたが送った画像',source:sentAttachmentRoute(id),body:'ゆゆ\n'+Night.text(s,FAKE9[s.motive])};
+  if(id==='mandateFake')return {...DOCS.mandate,title:'あなたが送った五人の画像',source:sentAttachmentRoute(id),body:DOCS.mandate.body};
   if(id==='denial')return {title:'配信中の否定',source:'昨夜のアーカイブ31:52',body:ARCHIVE9.find(row=>row.t===ARCHIVE_DENIAL_AT&&row.kind==='host').text};
   if(id==='yuu')return {title:'ゆうくんの返信',source:'あなたが画像を送ったあとの返事',body:YUU_ARCHIVE_REPLY+'\n俺はゆゆを信じるよ。'};
   return DOCS[id]||{title:id,source:'確認した記録',body:''};
@@ -1363,7 +1400,7 @@ function evidenceLines(text,max=21){
     return lines;
   });
 }
-function evidenceImage(d,id=''){
+function dmEvidenceImage(d,id=''){
   const body=Night.text(s,d.body);
   const text=(value,x,y,size=18,fill='#f5f5f5')=>`<text x="${x}" y="${y}" fill="${fill}" font-size="${size}" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif">${e(value)}</text>`;
   const path=(d)=>`<path d="${d}" fill="none" stroke="#fafafa" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>`;
@@ -1373,16 +1410,33 @@ function evidenceImage(d,id=''){
     contact='このアカウントは存在しません';handle='保存されたトーク画面';
     blocks=[{text:'ゆうくんをブロックしてほしい',out:true,speaker:'ゆゆ',at:'21:58'},{text:'なんで？'},{text:'理由説明しないとだめなの？\nゆうくんには、私から言うから。',out:true,speaker:'ゆゆ'}];
     footer='日付の表示なし';
-  }else if(id==='mandate'||id==='mandateFake'){
-    contact='ゆゆ';handle='プロフィールを見る';
-    const names=body.split('\n');
-    blocks=[{text:names.slice(1,names.indexOf('')).join('\n')},{text:'え？ ゆゆちゃん急にどうしたの？',out:true}];footer='この先に返信はない';
+  }else if(['mandate','mandateFake','secondA'].includes(id)){
+    contact='ゆゆ';handle='A側のトーク画面';
+    const parts=body.split('\n\n');
+    blocks=parts.map(part=>{
+      const lines=part.split('\n'),label=lines.shift();
+      if(label==='A → ゆゆ')return {text:lines.join('\n'),out:true,speaker:'A'};
+      if(label==='ゆゆ → A')return {text:lines.join('\n'),speaker:'ゆゆ'};
+      return {text:part,record:true};
+    });
+    if(id==='secondA')footer='画像の添付元を開く › room-620';
   }else if(id==='fake'){
-    contact='ゆゆ';handle='プロフィールを見る';blocks=[{text:body.replace(/^ゆゆ\n/,'')}];
-  }else if(id==='secondA'){
-    contact='ゆゆ';handle='プロフィールを見る';blocks=[{text:body.replace(/^ゆゆ\n/,'').split('\n\n画像の添付元')[0]}];footer='画像の添付元を開く › room-620';
+    contact='ゆゆ';handle='送信された画像の表示';blocks=[{text:body.replace(/^ゆゆ\n/,''),speaker:'ゆゆ'}];
   }else if(id==='notice'){
-    contact='ゆゆ';handle='Gくんの送信画面';blocks=[{text:body.split('\n').slice(1).join('\n'),out:true,at:'昨夜 23:10'}];
+    contact='ゆゆ';handle='Gくんの送信画面';
+    const lines=body.split('\n').slice(1),notes=lines.filter(line=>/^［.*］$/.test(line));
+    blocks=[{text:lines.filter(line=>!/^［.*］$/.test(line)).join('\n').trim(),out:true,at:'昨夜 23:10'}];
+    footer=notes.length?'照合メモ：'+notes.join('\n'):'';
+  }else if(id==='draft'){
+    contact='きむきむ';handle='Gくんの受信画面';
+    const parts=body.split('\n\n'),message=parts[0].split('\n').slice(1).join('\n');
+    blocks=[{text:message,speaker:'きむきむ'},{attachment:true,title:'添付・未送信の五人の画像',text:(parts[1]||'').split('\n').slice(1).join('\n')}];
+    footer=parts.slice(2).join('\n\n');
+  }else if(id==='retracted'){
+    contact='Gくん';handle='取り消し前に保存されたDM';
+    const lines=body.split('\n'),notes=lines.filter(line=>/^［.*］$/.test(line));
+    blocks=[{text:lines.filter(line=>!/^［.*］$/.test(line)).join('\n').trim()}];
+    footer=notes.length?'確認したときのメモ：'+notes.join('\n'):'';
   }else if(conversation){
     contact=({draft:'きむきむ',raw:'A',retracted:'Gくん',yuu:'ゆうくん',apology:'Gくん',nobu:'のぶくん',repair:'美咲',confession:'Gくん'})[id]||'共有されたDM';
     handle=id==='raw'?'受信したメッセージ':id==='draft'?'Gくんの受信画面':'プロフィールを見る';
@@ -1390,6 +1444,11 @@ function evidenceImage(d,id=''){
   }else blocks=[{text:body,record:true}];
   let y=204,content='';
   for(const block of blocks){
+    if(block.attachment){
+      const lines=evidenceLines(block.text,22),h=90+lines.length*25;
+      content+=`<g data-record="attachment"><rect x="24" y="${y}" width="424" height="${h}" rx="8" fill="#17151d" stroke="#655972"/><rect x="40" y="${y+15}" width="28" height="34" rx="4" fill="#71617f"/>${text('添付ファイル',80,y+29,13,'#b6a6c5')}${text(block.title,40,y+71,17)}${lines.map((line,i)=>text(line,40,y+101+i*25,16,'#ddd1e6')).join('')}</g>`;
+      y+=h+22;continue;
+    }
     if(block.at){content+=text(block.at,240,y,14,'#a8a8a8').replace('font-size','text-anchor="middle" font-size');y+=27;}
     if(block.speaker){content+=text(block.speaker,block.out?453:27,y+4,12,'#a8a8a8').replace('font-size',`text-anchor="${block.out?'end':'start'}" font-size`);y+=18;}
     const lines=evidenceLines(block.text,block.record?22:19),h=lines.length*27+27,w=block.record?424:Math.max(124,Math.min(370,Math.max(...lines.map(l=>[...l].length))*18+34));
@@ -1399,16 +1458,92 @@ function evidenceImage(d,id=''){
   }
   if(footer){const lines=evidenceLines(footer,29);content+=lines.map((l,i)=>text(l,240,y+12+i*20,13,'#a8a8a8').replace('font-size','text-anchor="middle" font-size')).join('');y+=lines.length*20+25;}
   const height=Math.max(700,y+110);
-  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="480" height="${height}" viewBox="0 0 480 ${height}"><defs><linearGradient id="sent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7856ff"/><stop offset="1" stop-color="#b039dc"/></linearGradient></defs><rect width="480" height="${height}" fill="#080808"/>${text('9:41',28,34,17)}${path('M395 23h3m4-3h3m4-3h3m4-3h3')}<rect x="432" y="18" width="24" height="12" rx="3" fill="none" stroke="#f5f5f5"/>${path('M459 22v4')}<path d="M435 21h17v6h-17z" fill="#f5f5f5"/>${path('M29 70l-10 10 10 10M19 80h19')}<circle cx="72" cy="80" r="20" fill="#39313f"/>${text(contact.slice(0,1),72,86,17).replace('font-size','text-anchor="middle" font-size')}${text(contact,103,78,contact.length>13?14:20)}${text(handle,103,98,12,'#a8a8a8')}${path('M382 73q-7 0-7 7v5q0 7 7 7h8l7 5V73zM422 75h18v17h-18zM440 80l9-5v17l-9-5')}<path d="M0 117h480" stroke="#242424"/>${text(conversation?'メッセージ':'保存された記録',240,157,13,'#929292').replace('font-size','text-anchor="middle" font-size')}${content}<rect x="19" y="${height-76}" width="442" height="49" rx="25" fill="none" stroke="#404040"/><circle cx="47" cy="${height-51}" r="13" fill="#7957ff"/>${path(`M42 ${height-56}h10v10H42z`)}${text('メッセージを入力…',74,height-45,16,'#929292')}${text('♡',417,height-43,26)}<rect x="161" y="${height-12}" width="158" height="5" rx="3" fill="#eee"/></svg>`;
+  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="480" height="${height}" viewBox="0 0 480 ${height}"><defs><linearGradient id="sent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7856ff"/><stop offset="1" stop-color="#b039dc"/></linearGradient></defs><rect width="480" height="${height}" fill="#080808"/>${text(id==='original'?'9:41':'',28,34,17)}${path('M395 23h3m4-3h3m4-3h3m4-3h3')}<rect x="432" y="18" width="24" height="12" rx="3" fill="none" stroke="#f5f5f5"/>${path('M459 22v4')}<path d="M435 21h17v6h-17z" fill="#f5f5f5"/>${path('M29 70l-10 10 10 10M19 80h19')}<circle cx="72" cy="80" r="20" fill="#39313f"/>${text(contact.slice(0,1),72,86,17).replace('font-size','text-anchor="middle" font-size')}${text(contact,103,78,contact.length>13?14:20)}${text(handle,103,98,12,'#a8a8a8')}${path('M382 73q-7 0-7 7v5q0 7 7 7h8l7 5V73zM422 75h18v17h-18zM440 80l9-5v17l-9-5')}<path d="M0 117h480" stroke="#242424"/>${text(conversation?'メッセージ':'保存された記録',240,157,13,'#929292').replace('font-size','text-anchor="middle" font-size')}${content}<rect x="19" y="${height-76}" width="442" height="49" rx="25" fill="none" stroke="#404040"/><circle cx="47" cy="${height-51}" r="13" fill="#7957ff"/>${path(`M42 ${height-56}h10v10H42z`)}${text('メッセージを入力…',74,height-45,16,'#929292')}${text('♡',417,height-43,26)}<rect x="161" y="${height-12}" width="158" height="5" rx="3" fill="#eee"/></svg>`;
   return 'data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
 }
+const EVIDENCE_KINDS={
+  original:'chat',mandate:'chat',mandateFake:'chat',secondA:'chat',fake:'chat',notice:'chat',draft:'chat',
+  retracted:'chat',yuu:'chat',apology:'chat',nobu:'chat',repair:'chat',confession:'chat',
+  profileHistory:'profile',profile:'testimony',visitor:'live',cafe:'recording',denial:'recording',
+  comparison:'comparison',sourceCheck:'receipt',receipt:'receipt',raw:'receipt',ownSource:'receipt',
+  external:'editor',roster:'roster',erika:'sample'
+};
+function evidenceKind(id){return id==='external'&&s.mastermind?'receipt':EVIDENCE_KINDS[id]||'record';}
+function evidenceContext(id){
+  const player=s.name||'あなた';
+  const context={
+    original:['画像内の会話：ゆゆ ⇄ 「このアカウントは存在しません」と表示される相手（ゆゆ側の画面）','共有経路：A → 美咲 → あなた'],
+    mandate:['画像内の会話：ゆゆ ⇄ A（A側の画面とされる画像）','共有経路：A → 美咲 → あなた'],
+    secondA:['画像内の会話：ゆゆ ⇄ A（A側の画面とされる画像）','共有経路：表示名A・添付元room-620 → 美咲 → あなた'],
+    mandateFake:['画像内の表示：ゆゆ ⇄ A','送信経路：'+sentAttachmentRoute(id)],
+    fake:['画像内の発言者の表示：ゆゆ','送信経路：'+sentAttachmentRoute(id)],
+    profileHistory:['画面の持ち主：ゆゆのプロフィール','保存・共有：ば◯お → あなた'],
+    profile:['証言した人：ば◯お','確認した内容：ゆゆのプロフィールが一瞬変わったという話'],
+    visitor:['配信している人：ざらし丸','見ている人：あなた／入退室の表示：ゆゆ'],
+    cafe:['録画の配信者：ゆゆ／保存した人：ぴろきちさん','別添付：きむきむが残した、きむきむ側の会話画面'],
+    denial:['録画の配信者：ゆゆ','確認した場面：昨夜のアーカイブ 31:52'],
+    comparison:['照合した人：えりか','左：配信に映った画面／右：Aが美咲へ送った画像'],
+    notice:['会話：Gくん → ゆゆ（Gくんの送信画面）','共有経路：Gくん → ガッチャン → あなた'],
+    draft:['会話：きむきむ → Gくん（Gくんの受信画面）','共有した人：Gくん → あなた'],
+    raw:['受信した人：美咲／送った表示名：A','美咲が残した受信リンクの記録'],
+    sourceCheck:['照合した人：えりか','元の記録：A → 美咲の受信リンク'],
+    receipt:['元の記録：ファミリーに届いたメッセージ申請','共有した人：えりか → あなた'],
+    external:['元の添付：A（guest-062）→ 美咲','共有した人：美咲 → あなた'],
+    ownSource:['元の記録：あなたのアカウントの送信履歴','表示されている送信先：美咲'],
+    roster:['元の記録：ファミリーの公開記録と個別に提供された記録','整理した内容：33人の発言と受信記録'],
+    erika:['作成した人：えりか／説明用の見本','実際にゆゆが送ったDMの記録ではありません'],
+    retracted:['会話：Gくん → あなた','送信が取り消される前に確認したDM'],
+    yuu:['会話：ゆうくん → あなた','あなたが画像を送ったあとの返信'],
+    apology:['会話：Gくん → あなた','画像の作成とは区別して確認する謝罪'],
+    confession:['会話：Gくん → あなた','Gくんが送信前のことを明かした返信'],
+    nobu:['会話：のぶくん → あなた','あなたから届いた添付についての確認'],
+    repair:['会話：あなた → 美咲','確認していなかった推測を訂正した送信記録']
+  };
+  const selected=id==='external'&&s.mastermind?['元の記録：あなた自身が使ったアカウントの送信記録','画像を送ったアカウントの持ち主：あなた／送信先：美咲']:context[id];
+  return (selected||['記録：'+docData(id).source]).map(line=>line.replaceAll('あなた',player));
+}
+function evidenceContextMarkup(id){return `<div class="evidence-context"><small>出典：${e(docData(id).source)}</small>${evidenceContext(id).map(line=>`<small>${e(line)}</small>`).join('')}</div>`;}
+function captureHeader(title,sub=''){
+  return `<div class="capture-status"><span>記録画面</span><span aria-hidden="true">▂▅▇ ▰</span></div><div class="capture-header"><span aria-hidden="true">‹</span><strong>${e(title)}</strong><span aria-hidden="true">•••</span></div>${sub?`<div class="capture-subtitle">${e(sub)}</div>`:''}`;
+}
+function captureBody(body){return `<div class="capture-record-body">${e(Night.text(s,body))}</div>`;}
+function evidenceVisual(d,id,full=false){
+  const kind=evidenceKind(id),body=Night.text(s,d.body);
+  if(kind==='chat')return `<img class="${full?'evidence-full':'evidence-thumb'}" data-evidence-id="${e(id)}" data-evidence-kind="chat" src="${e(dmEvidenceImage(d,id))}" alt="${e(d.title)}">`;
+  let content='';
+  if(kind==='profile'){
+    content=`${captureHeader('プロフィール')}<div class="capture-profile-cover"><img src="${ART.normal}" alt="ゆゆのプロフィール画像"></div><div class="capture-profile-info"><div class="capture-profile-avatar"><img src="${ART.chibi}" alt=""></div><h3>ゆゆ</h3><span class="capture-rank">ライバー</span><div class="capture-profile-stats"><span><b>33</b>フォロー</span><span><b>—</b>フォロワー</span><span><b>—</b>応援ランク</span></div><div class="capture-follow">フォロー中</div><div class="capture-profile-bio">一人にしないで</div><div class="capture-profile-menu"><span>ファミリー</span><span>アーカイブ</span><span>タグ</span></div></div>`;
+  }else if(kind==='live'){
+    content=`${captureHeader('ざらし丸の配信','今夜の配信・視聴画面')}<div class="capture-live-stage"><div class="capture-live-host"><span class="capture-live-avatar">🦭</span><strong>ざらし丸</strong><span class="capture-live-badge">LIVE</span></div><div class="capture-live-center"><span>🦭</span><p>少しだけ、話そ。</p></div><div class="capture-arrival">ゆゆ が入室しました</div><div class="capture-host-caption">ざらし丸「ゆゆちゃん？ 来てくれたの？」</div><div class="capture-departure">ゆゆ が退出しました</div><div class="capture-live-controls"><span>コメントする</span><span>♡　🎁</span></div></div>`;
+  }else if(kind==='recording'){
+    const denial=id==='denial';
+    content=`${captureHeader('ゆゆのアーカイブ',denial?'昨夜の配信・31:52の場面':'ぴろきちさんが保存した録画')}<div class="capture-stream-frame"><img src="${ART.normal}" alt="録画に映るゆゆ"><span class="capture-recording-label">録画の一コマ</span>${!denial?'<div class="capture-phone-inset"><b>きむきむ</b><span>［文字は読み取れない］</span></div>':''}</div><div class="capture-recording-controls">▷ ━━━━━━━━━　${denial?'31:52':'23:12'}</div>${!denial?`<div class="capture-part-label">別添付：きむきむ側の会話画面</div><div class="capture-shared-chat"><b>ゆゆ</b><div class="capture-chat-out">相談する人、一人に決めた方が楽じゃない？ 俺なら余計なこと言わない</div><div class="capture-chat-in">それは私が決めるよ。みんなと話したいし</div><div class="capture-chat-out">へー。まあ好きにしたら</div></div>`:''}${captureBody(body)}`;
+  }else if(kind==='comparison'){
+    content=`${captureHeader('画像の照合','えりかが二つの記録を並べた画面')}<div class="capture-comparison"><div><small>録画に映った画面</small><div class="capture-compare-mini"><b>きむきむ</b><span>相談する人、一人に決めた方が楽じゃない？</span><span>それは私が決めるよ。</span></div></div><div><small>Aの添付画像</small><div class="capture-compare-mini"><b>このアカウントは存在しません</b><span>ゆうくんをブロックしてほしい</span><span>なんで？</span></div></div></div><div class="capture-compare-note">表示名・吹き出しの位置・内容を照合</div>${captureBody(body)}`;
+  }else if(kind==='receipt'){
+    const ownAccount=id==='ownSource'||id==='external'&&s.mastermind;
+    const title=ownAccount?'送信履歴':({sourceCheck:'受信元の照合',receipt:'メッセージ申請の記録',raw:'添付の受信リンク'})[id]||'アカウントの記録';
+    content=`${captureHeader(title,'受信者・送信元・固定IDの記録')}<div class="capture-account-tabs"><b>${ownAccount?'送信記録':'受信記録'}</b><span>添付ファイル</span><span>リンク</span></div><div class="capture-account-badge">${id==='receipt'?'メッセージ申請':ownAccount?'あなたのアカウントの記録':'受信元の記録'}</div>${captureBody(body)}<div class="capture-link-field">固定ID / ${e(body.includes('room-620')?'room-620':'guest-062')}</div>`;
+  }else if(kind==='editor'){
+    content=`${captureHeader('画像を編集','Aから届いた、編集画面の添付')}<div class="capture-editor-toolbar"><span>戻る</span><b>生成画像</b><span>保存</span></div><div class="capture-editor-canvas"><div class="capture-editor-selection"><small>テキストを編集中</small><p>ゆうくんをブロックしてほしい</p></div><span>表示名：このアカウントは存在しません</span></div><div class="capture-editor-history"><b>編集履歴</b>${captureBody(body)}</div>`;
+  }else if(kind==='roster'){
+    content=`${captureHeader('ファミリーの管理記録','33人の発言と受信記録')}<div class="capture-account-tabs"><b>メンバー</b><span>発言</span><span>受信記録</span></div>${captureBody(body)}<div class="capture-roster">${CAST.slice(0,10).map(p=>`<div><b>${e(nameOf(p.id))}</b><span>発言・受信記録</span></div>`).join('')}<small>表示中 10 / 33人・全員の記録を整理</small></div>`;
+  }else if(kind==='sample'){
+    content=`${captureHeader('説明用の見本','えりかが作成した画面')}<div class="capture-sample-watermark">これは説明用の見本です</div><div class="capture-sample-message"><b>表示名：ゆゆ</b><p>これは架空のメッセージです</p></div>${captureBody(body)}`;
+  }else{
+    content=`${captureHeader(kind==='testimony'?'証言の記録':'確認した記録',kind==='testimony'?'ば◯おが話した内容':d.source)}<div class="capture-record-label">${kind==='testimony'?'聞き取った証言':'保存した資料'}</div>${captureBody(body)}`;
+  }
+  return `<div class="evidence-capture evidence-${kind}${full?' capture-full':''}" data-evidence-id="${e(id)}" data-evidence-kind="${kind}" aria-label="${e(d.title)}">${content}<div class="capture-home-indicator" aria-hidden="true"></div></div>`;
+}
+// Kept for consumers that require a DM image URL. Non-DM evidence is rendered by evidenceVisual.
+function evidenceImage(d,id=''){return evidenceKind(id)==='chat'?dmEvidenceImage(d,id):null;}
 function visitorView(){
   return `<section><p class="eyebrow">ざらし丸の配信 · 今夜</p><div class="visitor-stage"><span>LIVE</span><h2>少しだけ、話そ。</h2><p class="arrival">ゆゆ が入室しました</p><p>ざらし丸「ゆゆちゃん？ 来てくれたの？」</p><p class="departure">ゆゆ が退出しました</p></div><p>ゆゆのコメントを待つうちに、名前が消えた。プロフィールの一行だけが変わっている。</p>${b('ゆゆのプロフィールを見る','profile','yuyu','primary wide')}${b('ざらし丸からのDMを見る','dm','u07','wide')}${b('調査へ戻る','route','story','wide')}</section>`;
 }
-function card(id){let d=docData(id);return b(`<small>添付 · ${e(d.source)}</small><strong>${e(d.title)}</strong><img class="evidence-thumb" src="${e(evidenceImage(d,id))}" alt="${e(d.title)}の添付画像"><small>全文を見る ↗</small>`,'doc',id,'attachment');}
+function card(id){const d=docData(id);return b(`<strong>${e(d.title)}</strong>${evidenceContextMarkup(id)}${evidenceVisual(d,id)}<small>記録を拡大して見る</small>`,'doc',id,'attachment evidence-card');}
 function screenshotAttachment(id){
   const d=docData(id);
-  return b(`<img src="${e(evidenceImage(d,id))}" alt="スクリーンショットを拡大">`,'screenshot',id,'attachment dm-attachment');
+  return b(`${evidenceContextMarkup(id)}${evidenceVisual(d,id,true)}`,'screenshot',id,'attachment dm-attachment evidence-card');
 }
 function title(){return `<main class="landing"><img class="hero" src="${ART.night}" alt="配信者ゆゆのイラスト"><section class="landing-copy"><p class="eyebrow">A NIGHT OF DOUBT</p><h1>ゆゆしき事件簿！</h1><p class="sub">あなたを疑う5秒前</p><h2>その追放は、本当に正しい？</h2><p>いつもの配信が、始まらない。<br>一枚の画像から、長い夜が始まる。</p>${s?b('つづきから','continue','','primary wide'):''}<label for="name">ゲームで呼ばれる名前</label><input id="name" maxlength="20" autocomplete="nickname" placeholder="あなたの名前"><fieldset><legend>主人公の性別・一人称</legend><label><input type="radio" name="gender" value="male" checked> 男性（俺）</label><label><input type="radio" name="gender" value="female"> 女性（私）</label></fieldset><p id="name-error" role="alert"></p>${b('この夜をはじめる','new','','primary wide')}<p class="small">一人用／想定15〜45分／途中保存<br>行動でゲーム内の時間が進みます。読む速さは問いません。</p><div class="row">${b('遊び方','about')}${b('結末の記録','collection')}${b('作品について','fiction')}</div><p class="small">作中の会話と事件はフィクションです。</p>${b('♡ みんなへ、ありがとう！','thanks','','wide thanks')}<footer><small>Version ${NIGHT_VERSION}</small></footer></section></main>`;}
 function unreadCount(exclude=null){
@@ -1486,7 +1621,7 @@ function consultationChoices(){
   const prompt=s.origin==='misaki'
     ? '美咲からの連絡を待つ間に、昨夜の配信を見ていた人にも聞いてみよう。'
     : '送ったDMはまだ未読。昨夜の配信を見ていた人にも聞いてみよう。';
-  return `<p>${prompt}</p>${choice('のぶくんに連絡する','advisor','u31')}${choice('えりかに連絡する','advisor','u17')}`;
+  return `<p>${prompt}</p>${choice('のぶくんに、画像のことを聞く','advisor','u31')}${choice('えりかに、画像の見分け方を聞く','advisor','u17')}`;
 }
 function attachmentChoices(){
   if(!Night.readCue(s,ADVISOR_UPDATE)){
@@ -1498,9 +1633,9 @@ function attachmentChoices(){
       return '<p>美咲とのDMで、届いた画像を開いてみよう。</p>'
         +b('美咲とのDMに戻る','dm','u02','primary wide');
     }
-    return '<p>のぶくんに何を見せる？</p>'
-      +choice('美咲から来た画像をそのまま送る','attach','real')
-      +choice('相談する内容を整理して送る','attach','forge','相手に伝わるよう、要点をまとめる。');
+    return '<p>のぶくんに、どう伝える？</p>'
+      +choice('美咲から届いた画像を、そのまま見せる','attach','real','画像は未確認だと添えて送る。')
+      +choice('自分なりに整理してから伝える','attach','forge','伝える内容と書き方を選ぶ。');
   }
   return choice('美咲から聞いた話を、そのまま伝える','attach','real');
 }
@@ -1511,7 +1646,7 @@ function storyView(){let content='';switch(s.stage){
   case'memory':case'consult':content=consultationChoices();break;
   case'advisorReady':content=advisorDMButton();break;
   case'attach':content=`<p>相談した相手から返事が来た。何を伝えるか、DMで決めよう。</p>${advisorDMButton()}`;break;
-  case'forge':{let qs=[['どこまで書こう？','まだ確認できていない、と添える','細かい前置きは省いて、要点だけにする'],['どう伝えたら分かりやすい？','自分の受け取り方として、文章にまとめる','会話の形に整えて、そのまま読めるようにする'],['最後に、何を頼もう？','元の画像と違っていないか、確かめてもらう','これ以上こじれる前に、対応を考えてもらう']][s.forgeAnswers.length];content=`<p class="eyebrow">のぶくんへの相談</p><h2>${qs[0]}</h2><p class="small">伝え方を選んで、相談する内容をまとめよう。</p>${choice(qs[1],'forge',0)}${choice(qs[2],'forge',1)}`;break;}
+  case'forge':{let qs=[['最初に、どこまで分かっていると伝える？','本人にはまだ確認できていない、と伝える','詳しい説明は省いて、画像の内容だけ伝える'],['画像の内容を、どうまとめる？','自分が読み取った内容として文章にする','会話の形にして、ひと目で読める画像にする'],['のぶくんに、何を頼む？','元の画像と見比べて、違いがないか確かめてもらう','この内容をもとに、今できる対応を考えてもらう']][s.forgeAnswers.length];content=`<p class="eyebrow">のぶくんへの相談</p><h2>${qs[0]}</h2><p class="small">伝え方を選んで、相談する内容をまとめよう。</p>${choice(qs[1],'forge',0)}${choice(qs[2],'forge',1)}`;break;}
  case'archiveRest':content=`<h2>アーカイブの続きへ。</h2><p>いったんDMを閉じて、昨日の配信の続きを見よう。画像が届いたとき、ゆゆは何と言っていたんだろう。</p>${b('続きを見る','route','archive','primary wide')}`;break;
  case'midnight':return `<section><h2>0時を過ぎても、配信は始まらない。</h2>${b('美咲からの返信を見る','dm','u02','primary wide')}</section>`;
  case'policy':content=`<h2>今、できることは。</h2><p class="notice">このゲームのアシスタントは、ゆゆに代わって枠の人をブロックできます。実行すると、その人とはあなた自身も連絡できなくなります。</p>${choice('まだ勝手にブロックしない。もう少し調べる','policy','investigate','美咲に、調べたいと伝える。')}${choice('誰かを試しにブロックしてみる','policy','trial','人物を選んだあと、確認画面が出ます。')}`;break;
@@ -1565,7 +1700,7 @@ function dmChoices(id){
       +choice('今日はもう寝る','midnight','sleep','朝まで調査しない。')
       +choice('ゆうくんに画像を送って、聞いてみる','midnight','yuu')
       +choice('相談用にまとめた画像を、ゆうくんにも送る','midnight','fakeYuu')
-      +choice(nameOf(s.advisor)+'に連絡してみる','midnight','advisor');
+      +choice(nameOf(s.advisor)+'に、今できることを相談する','midnight','advisor');
   }
   if(s.stage==='investigate'){
     if(s.blocked.includes(id))return '<p class="notice">ブロック済み。この人とは連絡できません。</p>';
@@ -1775,8 +1910,8 @@ case'screenshot':{
   const scrollTop=$('#main').scrollTop;
   render(false);
   if(s.route==='dm')requestAnimationFrame(()=>{$('#main').scrollTop=scrollTop;});
-  const d=docData(val);showModal(`<img class="evidence-full" src="${e(evidenceImage(d,val))}" alt="${e(d.title)}"><details><summary>テキストで全文を読む</summary><div class="document">${e(Night.text(s,d.body))}</div></details>`);break;}
-case'doc':{let d=docData(val);showModal(`<small>${e(d.source)}</small><h2>${e(d.title)}</h2><img class="evidence-full" src="${e(evidenceImage(d,val))}" alt="${e(d.title)}"><details><summary>テキストで全文を読む</summary><div class="document">${e(Night.text(s,d.body))}</div></details>`);break;}
+  const d=docData(val);showModal(`${evidenceContextMarkup(val)}${evidenceVisual(d,val,true)}<details><summary>テキストで全文を読む</summary><div class="document">${e(Night.text(s,d.body))}</div></details>`);break;}
+case'doc':{let d=docData(val);showModal(`<h2>${e(d.title)}</h2>${evidenceContextMarkup(val)}${evidenceVisual(d,val,true)}<details><summary>テキストで全文を読む</summary><div class="document">${e(Night.text(s,d.body))}</div></details>`);break;}
 case'close':closeModal();break;
 case'seek':seekArchive(Number(val));break;
 case'seek-relative':seekArchive(archiveSourceAt(archivePosition(s.archive)+Number(val)));break;
